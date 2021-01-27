@@ -4,6 +4,7 @@ const CSSBadges = prompt('How many CSS badges do you have?');
 // parseInt(), parseFloat()
 const totalBadges = parseInt(HTMLBadges) + parseInt(CSSBadges);
 console.log(totalBadges);
+console.log(parseInt('20 is my age'));
 
 // +
 const totalBadges = +HTMLBadges + +CSSBadges;
